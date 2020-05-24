@@ -1,4 +1,5 @@
 
 ( ns learn-clojure )
 
-( print "hello world" )
+( print "hello world\n" )
+( println "hello world")
