@@ -1,7 +1,12 @@
 
-## Leiningen
+# Leiningen
+    lein tutorial
 
-### new clojure project
+## repl
+    lein repl
+
+
+## new clojure project
 
     lein new some_project_name
 
