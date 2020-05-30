@@ -6,4 +6,9 @@
 ;(defn solve [n])
 ;(time (solve 1000))
 
-(println (apply + (filter #(zero? (min (mod % 3) (mod % 5))) (range 1000))))
+(defn solve0 [upto] (apply + (filter #(zero? (min (mod % 3) (mod % 5))) (range upto))))
+
+(defn solve1 [upto] (reduce + (set (concat (range 0 upto 3) (range 0 upto 5)))))
+
+(println (time (solve0 1000)))
+(println (time (solve1 1000)))
