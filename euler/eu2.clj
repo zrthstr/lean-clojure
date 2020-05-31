@@ -10,7 +10,7 @@
   ([] (fib 1 2))
   ([a b] (lazy-seq(cons a (fib b (+ a b))))))
 
-(defn solve0 [max]
-  (println ( reduce + ( filter #(= 0 (mod % 2)) (take-while (partial > max) (fib))))))
+(defn solve0 [maxi]
+  (println ( reduce + ( filter #(= 0 (mod % 2)) (take-while (partial > maxi) (fib))))))
 
 (println (time (solve0 4e6)))
