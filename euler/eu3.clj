@@ -2,6 +2,8 @@
 ;
 ;What is the largest prime factor of the number 600851475143 ?
 
+(load-file '"primes.clj")
+
 (ns eu3)
 
 ; naiv prime factorial

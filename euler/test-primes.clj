@@ -1,7 +1,7 @@
 
 ( ns prime-test )
 
-(load-file '"prime.clj")
+(load-file '"primes.clj")
 
 (println (take 5 (primes/gen-primes)))
 (println (primes/n-primes 10))
