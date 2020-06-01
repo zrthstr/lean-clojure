@@ -7,7 +7,6 @@
 (ns eu3)
 
 ; naiv prime factorial
-; for x in range 2 to sqrt_root(n) where mod n x, restart for n/x
 (defn first_pfac [n]
   ())
 
@@ -19,4 +18,4 @@
 
 ;(println (time (solve0 600851475143)))
 
-(println (first_pfac 15))
+;(println (first_pfac 15))
